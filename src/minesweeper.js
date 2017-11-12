@@ -1,4 +1,4 @@
-// Minesweeper
+// Minesweeper 2
 const generatePlayerBoard = (numberOfRows, numberOfColumns) =>
 {
   let board = [];
