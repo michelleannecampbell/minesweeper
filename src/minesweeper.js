@@ -1,4 +1,4 @@
-// Minesweeper
+// Minesweeper terminal test
 const generatePlayerBoard = (numberOfRows, numberOfColumns) =>
 {
   let board = [];
