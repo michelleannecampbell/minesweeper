@@ -1,4 +1,4 @@
-class Board {
+export class Board {
   constructor(numberOfRows, numberOfColumns, numberOfBombs) {
     this._numberOfBombs = numberOfBombs;
     this._numberOfTiles = (numberOfRows * numberOfColumns);
@@ -93,10 +93,3 @@ class Board {
     return board;
   }
 } // end Board
-
-
-/*const g = new Game(3, 3, 3);
-g.playMove(1, 1);
-g.playMove(1, 2);
-g.playMove(1,1);
-*/
